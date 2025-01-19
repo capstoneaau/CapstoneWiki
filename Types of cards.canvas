@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"733c2e22d4607c91","type":"link","url":"https://x.com/rfidiot/status/1259172344729403392?lang=en","x":-340,"y":-240,"width":400,"height":440},
+		{"id":"acfa36bf1df71d6b","type":"text","text":"Meets ISO **15693/14443B** for contactless communications.","x":100,"y":-100,"width":280,"height":80},
+		{"id":"5b825921ffc16cd3","type":"file","file":"attachments/pacs-iclass-card-ds-en_0.pdf","x":-780,"y":-240,"width":400,"height":440},
+		{"id":"8c094fa275e6ba00","type":"link","url":"https://m.youtube.com/watch?v=zEzgUZ7xIHQ","x":-500,"y":340,"width":639,"height":375}
+	],
+	"edges":[]
+}

@@ -1,8 +1,8 @@
 {
   "settingsVersion": "1.8.01",
-  "makeOfflineCompatible": true,
+  "makeOfflineCompatible": false,
   "inlineAssets": false,
-  "includePluginCSS": "dataview",
+  "includePluginCSS": "",
   "includeSvelteCSS": true,
   "titleProperty": "title",
   "customHeadContentPath": "",

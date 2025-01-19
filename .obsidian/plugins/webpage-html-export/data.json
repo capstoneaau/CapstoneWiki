@@ -43,8 +43,10 @@
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
   "defaultMediaIcon": "lucide//file-image",
-  "exportPath": "/home/kenan1099/Documents/Capstone Wiki/public",
+  "exportPath": "/home/kenan1099/Documents/Capstone Wiki/docs",
   "filesToExport": [
-    []
+    [
+      "all"
+    ]
   ]
 }

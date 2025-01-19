@@ -1,6 +1,6 @@
 {
   "vaultName": "Capstone Wiki",
-  "lastExport": 1737317574054,
+  "lastExport": 1737317725565,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -9,27 +9,13 @@
     "attachments/NFC-Data-Exchange-Format-NDEF.pdf",
     "attachments/pacs-iclass-card-ds-en_0.pdf",
     "attachments/Pasted image 20250119232441.png",
-    "docs/lib/fonts/2d5198822ab091ce4305.woff2",
-    "docs/lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "docs/lib/fonts/05b618077343fbbd92b7.ttf",
-    "docs/lib/fonts/52ac8f3034507f1d9e53.ttf",
-    "docs/lib/fonts/70cc7ff27245e82ad414.ttf",
-    "docs/lib/fonts/94f2f163d4b698242fef.otf",
-    "docs/lib/fonts/535a6cf662596b3bd6a6.woff2",
-    "docs/lib/fonts/72505e6a122c6acd5471.woff2",
-    "docs/lib/fonts/454577c22304619db035.ttf",
-    "docs/lib/fonts/b5f0f109bc88052d4000.woff2",
-    "docs/lib/fonts/c8ba52b05a9ef10f4758.woff2",
-    "docs/lib/fonts/cb10ffd7684cd9836a05.woff2",
-    "docs/lib/fonts/cbe0ae49c52c920fd563.woff2",
-    "docs/lib/media/874d8b8e340f75575caa.svg",
-    "docs/lib/metadata.json",
-    "docs/lib/rss.xml",
-    "docs/Wiki/Types of cards and standards.html",
     "Wiki/NDEF.md",
     "Wiki/Types of cards and standards.md",
     "index.md",
     "Types of cards.canvas",
+    "lib/media/pasted-image-20250119232441.png",
+    "lib/media/nfc-data-exchange-format-ndef.pdf",
+    "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -43,9 +29,25 @@
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/874d8b8e340f75575caa.svg"
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/supported-plugins.css",
+    "lib/styles/main-styles.css"
   ],
   "mainDependencies": [
+    "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -59,235 +61,259 @@
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/874d8b8e340f75575caa.svg"
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/supported-plugins.css",
+    "lib/styles/main-styles.css"
   ],
   "fileInfo": {
-    "Wiki/Types of cards and standards.md": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 2499,
-      "exportedPath": "Wiki/Types of cards and standards.html",
-      "dependencies": []
-    },
-    "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 66800,
-      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
-      "dependencies": []
-    },
-    "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 104232,
-      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 104332,
-      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 98868,
-      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 106876,
-      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 105804,
-      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 106108,
-      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 111708,
-      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 192740,
-      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 161376,
-      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 191568,
-      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 155288,
-      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 7876,
-      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-      "dependencies": []
-    },
-    "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 317,
-      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
-      "dependencies": []
-    },
     "attachments/NFC-Data-Exchange-Format-NDEF.pdf": {
-      "modifiedTime": 1737317574054,
+      "modifiedTime": 1737317725565,
       "sourceSize": 270062,
-      "exportedPath": "attachments/NFC-Data-Exchange-Format-NDEF.pdf",
+      "exportedPath": "attachments/nfc-data-exchange-format-ndef.pdf",
       "dependencies": []
     },
     "attachments/pacs-iclass-card-ds-en_0.pdf": {
-      "modifiedTime": 1737317574054,
+      "modifiedTime": 1737317725565,
       "sourceSize": 281524,
       "exportedPath": "attachments/pacs-iclass-card-ds-en_0.pdf",
       "dependencies": []
     },
     "attachments/Pasted image 20250119232441.png": {
-      "modifiedTime": 1737317574054,
+      "modifiedTime": 1737317725565,
       "sourceSize": 39717,
-      "exportedPath": "attachments/Pasted image 20250119232441.png",
-      "dependencies": []
-    },
-    "docs/lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 104332,
-      "exportedPath": "docs/lib/fonts/2d5198822ab091ce4305.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 7876,
-      "exportedPath": "docs/lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 155288,
-      "exportedPath": "docs/lib/fonts/05b618077343fbbd92b7.ttf",
-      "dependencies": []
-    },
-    "docs/lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 191568,
-      "exportedPath": "docs/lib/fonts/52ac8f3034507f1d9e53.ttf",
-      "dependencies": []
-    },
-    "docs/lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 192740,
-      "exportedPath": "docs/lib/fonts/70cc7ff27245e82ad414.ttf",
-      "dependencies": []
-    },
-    "docs/lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 66800,
-      "exportedPath": "docs/lib/fonts/94f2f163d4b698242fef.otf",
-      "dependencies": []
-    },
-    "docs/lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 111708,
-      "exportedPath": "docs/lib/fonts/535a6cf662596b3bd6a6.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 104232,
-      "exportedPath": "docs/lib/fonts/72505e6a122c6acd5471.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 161376,
-      "exportedPath": "docs/lib/fonts/454577c22304619db035.ttf",
-      "dependencies": []
-    },
-    "docs/lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 105804,
-      "exportedPath": "docs/lib/fonts/b5f0f109bc88052d4000.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 98868,
-      "exportedPath": "docs/lib/fonts/c8ba52b05a9ef10f4758.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 106876,
-      "exportedPath": "docs/lib/fonts/cb10ffd7684cd9836a05.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 106108,
-      "exportedPath": "docs/lib/fonts/cbe0ae49c52c920fd563.woff2",
-      "dependencies": []
-    },
-    "docs/lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 317,
-      "exportedPath": "docs/lib/media/874d8b8e340f75575caa.svg",
-      "dependencies": []
-    },
-    "docs/lib/metadata.json": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 4612,
-      "exportedPath": "docs/lib/metadata.json",
-      "dependencies": []
-    },
-    "docs/lib/rss.xml": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 3666,
-      "exportedPath": "docs/lib/rss.xml",
-      "dependencies": []
-    },
-    "docs/Wiki/Types of cards and standards.html": {
-      "modifiedTime": 1737317574054,
-      "sourceSize": 235920,
-      "exportedPath": "docs/Wiki/Types of cards and standards.html",
+      "exportedPath": "attachments/pasted-image-20250119232441.png",
       "dependencies": []
     },
     "Wiki/NDEF.md": {
-      "modifiedTime": 1737317574054,
+      "modifiedTime": 1737317725565,
       "sourceSize": 398,
-      "exportedPath": "Wiki/NDEF.html",
+      "exportedPath": "wiki/ndef.html",
+      "dependencies": [
+        "lib/media/pasted-image-20250119232441.png",
+        "lib/media/nfc-data-exchange-format-ndef.pdf"
+      ]
+    },
+    "Wiki/Types of cards and standards.md": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 2499,
+      "exportedPath": "wiki/types-of-cards-and-standards.html",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1737317574054,
+      "modifiedTime": 1737317725565,
       "sourceSize": 153,
       "exportedPath": "index.html",
       "dependencies": []
     },
     "Types of cards.canvas": {
-      "modifiedTime": 1737317574054,
+      "modifiedTime": 1737317725565,
       "sourceSize": 603,
-      "exportedPath": "Types of cards.html",
+      "exportedPath": "types-of-cards.html",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250119232441.png": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 39717,
+      "exportedPath": "lib/media/pasted-image-20250119232441.png",
+      "dependencies": []
+    },
+    "lib/media/nfc-data-exchange-format-ndef.pdf": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 270062,
+      "exportedPath": "lib/media/nfc-data-exchange-format-ndef.pdf",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 104332,
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 192740,
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 4428,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 416,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 131021,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/other-plugins.css": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 2104,
+      "exportedPath": "lib/styles/other-plugins.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 236,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/supported-plugins.css": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 1637,
+      "exportedPath": "lib/styles/supported-plugins.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1737317725565,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     }
   }

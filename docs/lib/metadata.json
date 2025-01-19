@@ -1,6 +1,6 @@
 {
   "vaultName": "Capstone Wiki",
-  "lastExport": 1737318737167,
+  "lastExport": 1737320109574,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -9,44 +9,42 @@
     "attachments/NFC-Data-Exchange-Format-NDEF.pdf",
     "attachments/pacs-iclass-card-ds-en_0.pdf",
     "attachments/Pasted image 20250119232441.png",
-    "docs/lib/fonts/2d5198822ab091ce4305.woff2",
-    "docs/lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "docs/lib/fonts/05b618077343fbbd92b7.ttf",
-    "docs/lib/fonts/52ac8f3034507f1d9e53.ttf",
-    "docs/lib/fonts/70cc7ff27245e82ad414.ttf",
+    "docs/attachments/nfc-data-exchange-format-ndef.pdf",
+    "docs/attachments/pacs-iclass-card-ds-en_0.pdf",
+    "docs/attachments/pasted-image-20250119232441.png",
+    "docs/docs/attachments/nfc-data-exchange-format-ndef.pdf",
+    "docs/docs/attachments/pacs-iclass-card-ds-en_0.pdf",
+    "docs/docs/docs/attachments/nfc-data-exchange-format-ndef.pdf",
+    "docs/docs/docs/attachments/pacs-iclass-card-ds-en_0.pdf",
+    "docs/docs/docs/docs/attachments/nfc-data-exchange-format-ndef.pdf",
+    "docs/docs/docs/docs/attachments/pacs-iclass-card-ds-en_0.pdf",
+    "docs/docs/docs/lib/fonts/94f2f163d4b698242fef.otf",
+    "docs/docs/docs/wiki/ndef.html",
+    "docs/docs/docs/index.html",
+    "docs/docs/docs/types-of-cards.html",
+    "docs/docs/lib/fonts/94f2f163d4b698242fef.otf",
+    "docs/docs/wiki/ndef.html",
+    "docs/docs/index.html",
+    "docs/docs/types-of-cards.html",
     "docs/lib/fonts/94f2f163d4b698242fef.otf",
-    "docs/lib/fonts/535a6cf662596b3bd6a6.woff2",
-    "docs/lib/fonts/72505e6a122c6acd5471.woff2",
-    "docs/lib/fonts/454577c22304619db035.ttf",
-    "docs/lib/fonts/b5f0f109bc88052d4000.woff2",
-    "docs/lib/fonts/c8ba52b05a9ef10f4758.woff2",
-    "docs/lib/fonts/cb10ffd7684cd9836a05.woff2",
-    "docs/lib/fonts/cbe0ae49c52c920fd563.woff2",
     "docs/lib/html/file-tree.html",
-    "docs/lib/media/874d8b8e340f75575caa.svg",
-    "docs/lib/media/favicon.png",
-    "docs/lib/scripts/graph-data.js",
-    "docs/lib/scripts/graph-render-worker.js",
-    "docs/lib/scripts/graph-view.js",
+    "docs/lib/media/pasted-image-20250119232441.png",
     "docs/lib/scripts/graph-wasm.wasm",
-    "docs/lib/scripts/graph-wasm.js",
-    "docs/lib/scripts/minisearch.js",
-    "docs/lib/scripts/pixi.js",
-    "docs/lib/scripts/tinycolor.js",
-    "docs/lib/scripts/webpage.js",
-    "docs/lib/styles/global-variable-styles.css",
-    "docs/lib/styles/main-styles.css",
     "docs/lib/styles/obsidian.css",
-    "docs/lib/styles/other-plugins.css",
-    "docs/lib/styles/supported-plugins.css",
     "docs/lib/metadata.json",
     "docs/lib/rss.xml",
     "docs/lib/search-index.json",
+    "docs/wiki/ndef.html",
+    "docs/wiki/types-of-cards-and-standards.html",
     "docs/index.html",
+    "docs/types-of-cards.html",
     "Wiki/NDEF.md",
     "Wiki/Types of cards and standards.md",
     "index.md",
     "Types of cards.canvas",
+    "lib/media/pasted-image-20250119232441.png",
+    "lib/media/nfc-data-exchange-format-ndef.pdf",
+    "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -60,9 +58,24 @@
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/874d8b8e340f75575caa.svg"
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
   ],
   "mainDependencies": [
+    "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
     "lib/fonts/2d5198822ab091ce4305.woff2",
@@ -76,433 +89,426 @@
     "lib/fonts/52ac8f3034507f1d9e53.ttf",
     "lib/fonts/05b618077343fbbd92b7.ttf",
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-    "lib/media/874d8b8e340f75575caa.svg"
+    "lib/media/874d8b8e340f75575caa.svg",
+    "lib/html/file-tree.html",
+    "lib/scripts/webpage.js",
+    "lib/scripts/graph-view.js",
+    "lib/scripts/graph-wasm.js",
+    "lib/scripts/graph-render-worker.js",
+    "lib/scripts/tinycolor.js",
+    "lib/scripts/pixi.js",
+    "lib/scripts/minisearch.js",
+    "lib/media/favicon.png",
+    "lib/scripts/graph-data.js",
+    "lib/styles/obsidian.css",
+    "lib/styles/other-plugins.css",
+    "lib/styles/global-variable-styles.css",
+    "lib/styles/main-styles.css"
   ],
   "fileInfo": {
-    "index.md": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 141,
-      "exportedPath": "index.html",
-      "dependencies": []
-    },
-    "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1737318572898,
-      "sourceSize": 23377,
-      "exportedPath": "lib/scripts/graph-wasm.wasm",
-      "dependencies": []
-    },
-    "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 66800,
-      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
-      "dependencies": []
-    },
-    "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 104232,
-      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 104332,
-      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 98868,
-      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 106876,
-      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 105804,
-      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 106108,
-      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 111708,
-      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
-      "dependencies": []
-    },
-    "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 192740,
-      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 161376,
-      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 191568,
-      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 155288,
-      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
-      "dependencies": []
-    },
-    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 7876,
-      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
-      "dependencies": []
-    },
-    "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 317,
-      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
-      "dependencies": []
-    },
-    "lib/html/file-tree.html": {
-      "modifiedTime": 1737318572898,
-      "sourceSize": 40899,
-      "exportedPath": "lib/html/file-tree.html",
-      "dependencies": []
-    },
-    "lib/scripts/webpage.js": {
-      "modifiedTime": 1737318572898,
-      "sourceSize": 47290,
-      "exportedPath": "lib/scripts/webpage.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-view.js": {
-      "modifiedTime": 1737318572898,
-      "sourceSize": 15519,
-      "exportedPath": "lib/scripts/graph-view.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1737318572898,
-      "sourceSize": 14021,
-      "exportedPath": "lib/scripts/graph-wasm.js",
-      "dependencies": []
-    },
-    "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1737318572898,
-      "sourceSize": 5179,
-      "exportedPath": "lib/scripts/graph-render-worker.js",
-      "dependencies": []
-    },
-    "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1737318572898,
-      "sourceSize": 29832,
-      "exportedPath": "lib/scripts/tinycolor.js",
-      "dependencies": []
-    },
-    "lib/scripts/pixi.js": {
-      "modifiedTime": 1737318572898,
-      "sourceSize": 449509,
-      "exportedPath": "lib/scripts/pixi.js",
-      "dependencies": []
-    },
-    "lib/scripts/minisearch.js": {
-      "modifiedTime": 1737318572898,
-      "sourceSize": 29422,
-      "exportedPath": "lib/scripts/minisearch.js",
-      "dependencies": []
-    },
-    "lib/media/favicon.png": {
-      "modifiedTime": 1737318572898,
-      "sourceSize": 1105,
-      "exportedPath": "lib/media/favicon.png",
-      "dependencies": []
-    },
-    "lib/scripts/graph-data.js": {
-      "modifiedTime": 1737318572898,
-      "sourceSize": 406,
-      "exportedPath": "lib/scripts/graph-data.js",
-      "dependencies": []
-    },
-    "lib/styles/obsidian.css": {
-      "modifiedTime": 1737318572898,
-      "sourceSize": 131021,
-      "exportedPath": "lib/styles/obsidian.css",
-      "dependencies": []
-    },
-    "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1737318572898,
-      "sourceSize": 236,
-      "exportedPath": "lib/styles/global-variable-styles.css",
-      "dependencies": []
-    },
-    "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1737318258314,
-      "sourceSize": 1637,
-      "exportedPath": "lib/styles/supported-plugins.css",
-      "dependencies": []
-    },
-    "lib/styles/main-styles.css": {
-      "modifiedTime": 1737318572898,
-      "sourceSize": 23130,
-      "exportedPath": "lib/styles/main-styles.css",
-      "dependencies": []
-    },
-    "lib/styles/other-plugins.css": {
-      "modifiedTime": 1737318572898,
-      "sourceSize": 2104,
-      "exportedPath": "lib/styles/other-plugins.css",
-      "dependencies": []
-    },
     "attachments/NFC-Data-Exchange-Format-NDEF.pdf": {
-      "modifiedTime": 1737318737167,
+      "modifiedTime": 1737320109574,
       "sourceSize": 270062,
-      "exportedPath": "attachments/NFC-Data-Exchange-Format-NDEF.pdf",
+      "exportedPath": "attachments/nfc-data-exchange-format-ndef.pdf",
       "dependencies": []
     },
     "attachments/pacs-iclass-card-ds-en_0.pdf": {
-      "modifiedTime": 1737318737167,
+      "modifiedTime": 1737320109574,
       "sourceSize": 281524,
       "exportedPath": "attachments/pacs-iclass-card-ds-en_0.pdf",
       "dependencies": []
     },
     "attachments/Pasted image 20250119232441.png": {
-      "modifiedTime": 1737318737167,
+      "modifiedTime": 1737320109574,
       "sourceSize": 39717,
-      "exportedPath": "attachments/Pasted image 20250119232441.png",
+      "exportedPath": "attachments/pasted-image-20250119232441.png",
       "dependencies": []
     },
-    "docs/lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1737318737167,
+    "Wiki/NDEF.md": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 398,
+      "exportedPath": "wiki/ndef.html",
+      "dependencies": [
+        "lib/media/pasted-image-20250119232441.png",
+        "lib/media/nfc-data-exchange-format-ndef.pdf"
+      ]
+    },
+    "Wiki/Types of cards and standards.md": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 2499,
+      "exportedPath": "wiki/types-of-cards-and-standards.html",
+      "dependencies": []
+    },
+    "index.md": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 176,
+      "exportedPath": "index.html",
+      "dependencies": []
+    },
+    "Types of cards.canvas": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 603,
+      "exportedPath": "types-of-cards.html",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20250119232441.png": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 39717,
+      "exportedPath": "lib/media/pasted-image-20250119232441.png",
+      "dependencies": []
+    },
+    "lib/media/nfc-data-exchange-format-ndef.pdf": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 270062,
+      "exportedPath": "lib/media/nfc-data-exchange-format-ndef.pdf",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.wasm": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 23377,
+      "exportedPath": "lib/scripts/graph-wasm.wasm",
+      "dependencies": []
+    },
+    "lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 66800,
+      "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "lib/fonts/72505e6a122c6acd5471.woff2": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 104232,
+      "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/2d5198822ab091ce4305.woff2": {
+      "modifiedTime": 1737320109574,
       "sourceSize": 104332,
-      "exportedPath": "docs/lib/fonts/2d5198822ab091ce4305.woff2",
+      "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
-    "docs/lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 7876,
-      "exportedPath": "docs/lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+    "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 98868,
+      "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
-    "docs/lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 155288,
-      "exportedPath": "docs/lib/fonts/05b618077343fbbd92b7.ttf",
+    "lib/fonts/cb10ffd7684cd9836a05.woff2": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 106876,
+      "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
-    "docs/lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 191568,
-      "exportedPath": "docs/lib/fonts/52ac8f3034507f1d9e53.ttf",
+    "lib/fonts/b5f0f109bc88052d4000.woff2": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 105804,
+      "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
-    "docs/lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1737318737167,
+    "lib/fonts/cbe0ae49c52c920fd563.woff2": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 106108,
+      "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/535a6cf662596b3bd6a6.woff2": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 111708,
+      "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
+      "dependencies": []
+    },
+    "lib/fonts/70cc7ff27245e82ad414.ttf": {
+      "modifiedTime": 1737320109574,
       "sourceSize": 192740,
-      "exportedPath": "docs/lib/fonts/70cc7ff27245e82ad414.ttf",
+      "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/454577c22304619db035.ttf": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 161376,
+      "exportedPath": "lib/fonts/454577c22304619db035.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/52ac8f3034507f1d9e53.ttf": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 191568,
+      "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/05b618077343fbbd92b7.ttf": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 155288,
+      "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
+      "dependencies": []
+    },
+    "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 7876,
+      "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
+      "dependencies": []
+    },
+    "lib/media/874d8b8e340f75575caa.svg": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 317,
+      "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
+      "dependencies": []
+    },
+    "lib/html/file-tree.html": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 52688,
+      "exportedPath": "lib/html/file-tree.html",
+      "dependencies": []
+    },
+    "lib/scripts/webpage.js": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 47290,
+      "exportedPath": "lib/scripts/webpage.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-view.js": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 15519,
+      "exportedPath": "lib/scripts/graph-view.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-wasm.js": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 14021,
+      "exportedPath": "lib/scripts/graph-wasm.js",
+      "dependencies": []
+    },
+    "lib/scripts/graph-render-worker.js": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 5179,
+      "exportedPath": "lib/scripts/graph-render-worker.js",
+      "dependencies": []
+    },
+    "lib/scripts/tinycolor.js": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 29832,
+      "exportedPath": "lib/scripts/tinycolor.js",
+      "dependencies": []
+    },
+    "lib/scripts/pixi.js": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 449509,
+      "exportedPath": "lib/scripts/pixi.js",
+      "dependencies": []
+    },
+    "lib/scripts/minisearch.js": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 29422,
+      "exportedPath": "lib/scripts/minisearch.js",
+      "dependencies": []
+    },
+    "lib/media/favicon.png": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 1105,
+      "exportedPath": "lib/media/favicon.png",
+      "dependencies": []
+    },
+    "lib/scripts/graph-data.js": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 420,
+      "exportedPath": "lib/scripts/graph-data.js",
+      "dependencies": []
+    },
+    "lib/styles/obsidian.css": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 131021,
+      "exportedPath": "lib/styles/obsidian.css",
+      "dependencies": []
+    },
+    "lib/styles/other-plugins.css": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 2104,
+      "exportedPath": "lib/styles/other-plugins.css",
+      "dependencies": []
+    },
+    "lib/styles/global-variable-styles.css": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 236,
+      "exportedPath": "lib/styles/global-variable-styles.css",
+      "dependencies": []
+    },
+    "lib/styles/main-styles.css": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 23130,
+      "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "docs/attachments/nfc-data-exchange-format-ndef.pdf": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 270062,
+      "exportedPath": "docs/attachments/nfc-data-exchange-format-ndef.pdf",
+      "dependencies": []
+    },
+    "docs/attachments/pacs-iclass-card-ds-en_0.pdf": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 281524,
+      "exportedPath": "docs/attachments/pacs-iclass-card-ds-en_0.pdf",
+      "dependencies": []
+    },
+    "docs/attachments/pasted-image-20250119232441.png": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 39717,
+      "exportedPath": "docs/attachments/pasted-image-20250119232441.png",
       "dependencies": []
     },
     "docs/lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1737318737167,
+      "modifiedTime": 1737320109574,
       "sourceSize": 66800,
       "exportedPath": "docs/lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
-    "docs/lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 111708,
-      "exportedPath": "docs/lib/fonts/535a6cf662596b3bd6a6.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 104232,
-      "exportedPath": "docs/lib/fonts/72505e6a122c6acd5471.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 161376,
-      "exportedPath": "docs/lib/fonts/454577c22304619db035.ttf",
-      "dependencies": []
-    },
-    "docs/lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 105804,
-      "exportedPath": "docs/lib/fonts/b5f0f109bc88052d4000.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 98868,
-      "exportedPath": "docs/lib/fonts/c8ba52b05a9ef10f4758.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 106876,
-      "exportedPath": "docs/lib/fonts/cb10ffd7684cd9836a05.woff2",
-      "dependencies": []
-    },
-    "docs/lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 106108,
-      "exportedPath": "docs/lib/fonts/cbe0ae49c52c920fd563.woff2",
-      "dependencies": []
-    },
     "docs/lib/html/file-tree.html": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 40899,
+      "modifiedTime": 1737320109574,
+      "sourceSize": 8122,
       "exportedPath": "docs/lib/html/file-tree.html",
       "dependencies": []
     },
-    "docs/lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 317,
-      "exportedPath": "docs/lib/media/874d8b8e340f75575caa.svg",
-      "dependencies": []
-    },
-    "docs/lib/media/favicon.png": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 1105,
-      "exportedPath": "docs/lib/media/favicon.png",
-      "dependencies": []
-    },
-    "docs/lib/scripts/graph-data.js": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 406,
-      "exportedPath": "docs/lib/scripts/graph-data.js",
-      "dependencies": []
-    },
-    "docs/lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 5179,
-      "exportedPath": "docs/lib/scripts/graph-render-worker.js",
-      "dependencies": []
-    },
-    "docs/lib/scripts/graph-view.js": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 15519,
-      "exportedPath": "docs/lib/scripts/graph-view.js",
+    "docs/lib/media/pasted-image-20250119232441.png": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 39717,
+      "exportedPath": "docs/lib/media/pasted-image-20250119232441.png",
       "dependencies": []
     },
     "docs/lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1737318737167,
+      "modifiedTime": 1737320109574,
       "sourceSize": 23377,
       "exportedPath": "docs/lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
-    "docs/lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 14021,
-      "exportedPath": "docs/lib/scripts/graph-wasm.js",
-      "dependencies": []
-    },
-    "docs/lib/scripts/minisearch.js": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 29422,
-      "exportedPath": "docs/lib/scripts/minisearch.js",
-      "dependencies": []
-    },
-    "docs/lib/scripts/pixi.js": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 449511,
-      "exportedPath": "docs/lib/scripts/pixi.js",
-      "dependencies": []
-    },
-    "docs/lib/scripts/tinycolor.js": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 29832,
-      "exportedPath": "docs/lib/scripts/tinycolor.js",
-      "dependencies": []
-    },
-    "docs/lib/scripts/webpage.js": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 47290,
-      "exportedPath": "docs/lib/scripts/webpage.js",
-      "dependencies": []
-    },
-    "docs/lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 236,
-      "exportedPath": "docs/lib/styles/global-variable-styles.css",
-      "dependencies": []
-    },
-    "docs/lib/styles/main-styles.css": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 23130,
-      "exportedPath": "docs/lib/styles/main-styles.css",
-      "dependencies": []
-    },
     "docs/lib/styles/obsidian.css": {
-      "modifiedTime": 1737318737167,
+      "modifiedTime": 1737320109574,
       "sourceSize": 131033,
       "exportedPath": "docs/lib/styles/obsidian.css",
       "dependencies": []
     },
-    "docs/lib/styles/other-plugins.css": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 2104,
-      "exportedPath": "docs/lib/styles/other-plugins.css",
-      "dependencies": []
-    },
-    "docs/lib/styles/supported-plugins.css": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 1637,
-      "exportedPath": "docs/lib/styles/supported-plugins.css",
-      "dependencies": []
-    },
     "docs/lib/metadata.json": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 7465,
+      "modifiedTime": 1737320109574,
+      "sourceSize": 17662,
       "exportedPath": "docs/lib/metadata.json",
       "dependencies": []
     },
     "docs/lib/rss.xml": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 1700,
+      "modifiedTime": 1737320109574,
+      "sourceSize": 4959,
       "exportedPath": "docs/lib/rss.xml",
       "dependencies": []
     },
     "docs/lib/search-index.json": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 17760,
+      "modifiedTime": 1737320109574,
+      "sourceSize": 15219,
       "exportedPath": "docs/lib/search-index.json",
       "dependencies": []
     },
+    "docs/wiki/ndef.html": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 16388,
+      "exportedPath": "docs/wiki/ndef.html",
+      "dependencies": []
+    },
+    "docs/wiki/types-of-cards-and-standards.html": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 30031,
+      "exportedPath": "docs/wiki/types-of-cards-and-standards.html",
+      "dependencies": []
+    },
     "docs/index.html": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 219318,
+      "modifiedTime": 1737320109574,
+      "sourceSize": 15642,
       "exportedPath": "docs/index.html",
       "dependencies": []
     },
-    "Wiki/NDEF.md": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 398,
-      "exportedPath": "Wiki/NDEF.html",
+    "docs/types-of-cards.html": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 29497,
+      "exportedPath": "docs/types-of-cards.html",
       "dependencies": []
     },
-    "Wiki/Types of cards and standards.md": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 2499,
-      "exportedPath": "Wiki/Types of cards and standards.html",
+    "docs/docs/attachments/nfc-data-exchange-format-ndef.pdf": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 270062,
+      "exportedPath": "docs/docs/attachments/nfc-data-exchange-format-ndef.pdf",
       "dependencies": []
     },
-    "Types of cards.canvas": {
-      "modifiedTime": 1737318737167,
-      "sourceSize": 603,
-      "exportedPath": "Types of cards.html",
+    "docs/docs/attachments/pacs-iclass-card-ds-en_0.pdf": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 281524,
+      "exportedPath": "docs/docs/attachments/pacs-iclass-card-ds-en_0.pdf",
+      "dependencies": []
+    },
+    "docs/docs/lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 66800,
+      "exportedPath": "docs/docs/lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "docs/docs/wiki/ndef.html": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 16388,
+      "exportedPath": "docs/docs/wiki/ndef.html",
+      "dependencies": []
+    },
+    "docs/docs/index.html": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 15218,
+      "exportedPath": "docs/docs/index.html",
+      "dependencies": []
+    },
+    "docs/docs/types-of-cards.html": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 29497,
+      "exportedPath": "docs/docs/types-of-cards.html",
+      "dependencies": []
+    },
+    "docs/docs/docs/attachments/nfc-data-exchange-format-ndef.pdf": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 270062,
+      "exportedPath": "docs/docs/docs/attachments/nfc-data-exchange-format-ndef.pdf",
+      "dependencies": []
+    },
+    "docs/docs/docs/attachments/pacs-iclass-card-ds-en_0.pdf": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 281524,
+      "exportedPath": "docs/docs/docs/attachments/pacs-iclass-card-ds-en_0.pdf",
+      "dependencies": []
+    },
+    "docs/docs/docs/lib/fonts/94f2f163d4b698242fef.otf": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 66800,
+      "exportedPath": "docs/docs/docs/lib/fonts/94f2f163d4b698242fef.otf",
+      "dependencies": []
+    },
+    "docs/docs/docs/wiki/ndef.html": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 16388,
+      "exportedPath": "docs/docs/docs/wiki/ndef.html",
+      "dependencies": []
+    },
+    "docs/docs/docs/index.html": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 15196,
+      "exportedPath": "docs/docs/docs/index.html",
+      "dependencies": []
+    },
+    "docs/docs/docs/types-of-cards.html": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 29497,
+      "exportedPath": "docs/docs/docs/types-of-cards.html",
+      "dependencies": []
+    },
+    "docs/docs/docs/docs/attachments/nfc-data-exchange-format-ndef.pdf": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 270062,
+      "exportedPath": "docs/docs/docs/docs/attachments/nfc-data-exchange-format-ndef.pdf",
+      "dependencies": []
+    },
+    "docs/docs/docs/docs/attachments/pacs-iclass-card-ds-en_0.pdf": {
+      "modifiedTime": 1737320109574,
+      "sourceSize": 281524,
+      "exportedPath": "docs/docs/docs/docs/attachments/pacs-iclass-card-ds-en_0.pdf",
       "dependencies": []
     }
   }

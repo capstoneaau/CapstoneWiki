@@ -1,6 +1,6 @@
 {
   "settingsVersion": "1.8.01",
-  "makeOfflineCompatible": true,
+  "makeOfflineCompatible": false,
   "inlineAssets": false,
   "includePluginCSS": "",
   "includeSvelteCSS": true,
@@ -26,7 +26,7 @@
   "addGraphView": true,
   "addTitle": true,
   "addRSSFeed": true,
-  "siteURL": "",
+  "siteURL": "https://kquote03.github.io/CapstoneWiki/",
   "authorName": "",
   "vaultTitle": "Capstone Wiki",
   "exportPreset": "website",
@@ -46,7 +46,10 @@
   "exportPath": "/home/kenan1099/Documents/Capstone Wiki/docs",
   "filesToExport": [
     [
-      "all"
+      "attachments",
+      "Example page.md",
+      "index.md",
+      "Types of cards.canvas"
     ]
   ]
 }

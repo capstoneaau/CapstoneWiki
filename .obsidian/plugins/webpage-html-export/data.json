@@ -47,7 +47,7 @@
   "filesToExport": [
     [
       "attachments",
-      "Example page.md",
+      "Wiki",
       "index.md",
       "Types of cards.canvas"
     ]

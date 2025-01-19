@@ -28,18 +28,28 @@
             "id": "112ace357e750677",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "cb9a34804f85069c",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Example page.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Example page"
+              "title": "index"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,10 +167,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Types of cards.canvas"
+                "file": "Types of cards and standards.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Types of cards"
+              "title": "Outline of Types of cards and standards"
             }
           },
           {
@@ -182,6 +192,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -189,7 +200,6 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "publish:Publish changes...": false,
       "webpage-html-export:Export Vault to HTML": false
     }
   },
@@ -198,48 +208,84 @@
     "type": "floating",
     "children": [
       {
-        "id": "a3ecdcea6256b18f",
+        "id": "2b6a757cddb8c68d",
         "type": "window",
         "children": [
           {
-            "id": "498b58ac06c88c79",
+            "id": "2c6c779a3e94002e",
             "type": "tabs",
             "children": [
               {
-                "id": "cb9a34804f85069c",
+                "id": "59a17edc211bad65",
                 "type": "leaf",
                 "state": {
-                  "type": "canvas",
+                  "type": "markdown",
                   "state": {
-                    "file": "Types of cards.canvas",
-                    "viewState": {
-                      "x": 0,
-                      "y": 0,
-                      "zoom": 0
-                    }
+                    "file": "Types of cards and standards.md",
+                    "mode": "source",
+                    "source": false
                   },
-                  "icon": "lucide-layout-dashboard",
-                  "title": "Types of cards"
+                  "icon": "lucide-file",
+                  "title": "Types of cards and standards"
                 }
               }
             ]
           }
         ],
         "direction": "vertical",
-        "x": 1366,
-        "y": 536,
-        "width": 900,
-        "height": 500,
+        "x": 510,
+        "y": 555,
+        "width": 800,
+        "height": 400,
+        "maximize": false,
+        "zoom": 0
+      },
+      {
+        "id": "def2a5eb431b9d8f",
+        "type": "window",
+        "children": [
+          {
+            "id": "1103bbbdf19d79ba",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "abe2986339726b5d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Types of cards and standards.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Types of cards and standards"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 510,
+        "y": 555,
+        "width": 800,
+        "height": 400,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "cb9a34804f85069c",
+  "active": "abe2986339726b5d",
   "lastOpenFiles": [
+    "Types of cards.canvas",
+    "NDEF.md",
+    "index.md",
+    "Types of cards and standards.md",
+    "docs/attachments",
+    "Wiki/Types of cards and standards.md",
+    "Wiki/NDEF.md",
     "Example page.md",
     "public",
-    "Types of cards.canvas",
     "attachments",
     "attachments/pacs-iclass-card-ds-en_0.pdf",
     "Welcome.md"

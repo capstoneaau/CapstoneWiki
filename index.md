@@ -2,5 +2,5 @@ This wiki serves as a knowledge-base for NFC/RFID card research for our capstone
 
 ## List of pages in the wiki:
 ```dataview
-LIST FROM "Wiki"
+LIST
 ```

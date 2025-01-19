@@ -1,8 +1,8 @@
 {
   "settingsVersion": "1.8.01",
-  "makeOfflineCompatible": false,
-  "inlineAssets": false,
-  "includePluginCSS": "",
+  "makeOfflineCompatible": true,
+  "inlineAssets": true,
+  "includePluginCSS": "dataview",
   "includeSvelteCSS": true,
   "titleProperty": "title",
   "customHeadContentPath": "",
@@ -16,20 +16,20 @@
   "allowResizingSidebars": true,
   "logLevel": "warning",
   "minifyHTML": true,
-  "makeNamesWebStyle": true,
+  "makeNamesWebStyle": false,
   "onlyExportModified": false,
   "deleteOldFiles": true,
   "addThemeToggle": true,
   "addOutline": true,
   "addFileNav": true,
-  "addSearchBar": true,
-  "addGraphView": true,
+  "addSearchBar": false,
+  "addGraphView": false,
   "addTitle": true,
   "addRSSFeed": true,
   "siteURL": "https://kquote03.github.io/CapstoneWiki/",
   "authorName": "",
   "vaultTitle": "Capstone Wiki",
-  "exportPreset": "website",
+  "exportPreset": "documents",
   "openAfterExport": true,
   "graphAttractionForce": 1,
   "graphLinkLength": 10,
@@ -38,7 +38,7 @@
   "graphEdgePruning": 100,
   "graphMinNodeSize": 3,
   "graphMaxNodeSize": 7,
-  "showDefaultTreeIcons": false,
+  "showDefaultTreeIcons": true,
   "emojiStyle": "Native",
   "defaultFileIcon": "lucide//file",
   "defaultFolderIcon": "lucide//folder",
@@ -46,10 +46,7 @@
   "exportPath": "/home/kenan1099/Documents/Capstone Wiki/docs",
   "filesToExport": [
     [
-      "attachments",
-      "Wiki",
-      "index.md",
-      "Types of cards.canvas"
+      "all"
     ]
   ]
 }

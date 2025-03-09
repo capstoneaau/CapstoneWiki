@@ -67,17 +67,14 @@
             "id": "225f4019e25d3660",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Types of cards.canvas",
-                "viewState": {
-                  "x": -200,
-                  "y": 237.5,
-                  "zoom": -0.13297860093686567
-                }
+                "file": "index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Types of cards"
+              "icon": "lucide-file",
+              "title": "index"
             }
           },
           {
@@ -275,12 +272,12 @@
   },
   "active": "225f4019e25d3660",
   "lastOpenFiles": [
-    "Wiki/PN5180 to Raspberry Pi.md",
     "Types of cards.canvas",
-    "docs/wiki/nxplib-notes.html",
     "index.md",
+    "Wiki/PN5180 to Raspberry Pi.md",
     "Wiki/PN5180 to Arduino and ESP32.md",
     "Wiki/NDEF.md",
+    "docs/wiki/nxplib-notes.html",
     "Wiki/Initial Research.md",
     "Wiki/Nxplib notes.md",
     "Untitled 1.md",

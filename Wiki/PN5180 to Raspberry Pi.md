@@ -17,11 +17,11 @@
 | REQ    | Not Connected<br>               |
 **For reference:**
 The number at the end of each RPi connection is the physical pin location (the small darker number beside each pin in the diagram below)
-![[Pasted image 20250203212129.png|300]]
+![[Pasted image 20250203212129.png|400]]
 (courtesy of [pinout.xyz](https://pinout.xyz/))
 
 ### Available libraries
-- pyPN5180 - https://github.com/fservida/pyPN5180 (uses different pinout)
+- pyPN5180 - https://github.com/fservida/pyPN5180 (uses different pinout) (⚠️Incompatible with the Raspberry Pi 5 due to RP1 chip)
 - NXP's Library - https://www.nxp.com/applications/technologies/security/industrial-security/nfc-reader-library-software-support-for-nfc-frontend-solutions:NFC-READER-LIBRARY?tab=In-Depth_Tab (requires free NXP account)
 
 ### Usage of NXP Library

@@ -270,13 +270,60 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "225f4019e25d3660",
+  "floating": {
+    "id": "16db9fe3af167348",
+    "type": "floating",
+    "children": [
+      {
+        "id": "b2fe44c310d594af",
+        "type": "window",
+        "children": [
+          {
+            "id": "98c2072a5eb5afe3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bc497bfec2b87460",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "Types of cards.canvas",
+                    "viewState": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 0
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "Types of cards"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 510,
+        "y": 555,
+        "width": 800,
+        "height": 400,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "bc497bfec2b87460",
   "lastOpenFiles": [
-    "Types of cards.canvas",
     "index.md",
     "Wiki/PN5180 to Raspberry Pi.md",
     "Wiki/PN5180 to Arduino and ESP32.md",
     "Wiki/NDEF.md",
+    "Wiki/Bluefin SRS.md",
+    "attachments/Bluefin-Architecture-Diagram.drawio.svg",
+    "attachments/Bluefin-Architecture-Diagram.drawio",
+    "Wiki/attachments/Pasted image 20250311031524.png",
+    "Wiki/attachments",
+    "Types of cards.canvas",
     "docs/wiki/nxplib-notes.html",
     "Wiki/Initial Research.md",
     "Wiki/Nxplib notes.md",
@@ -295,13 +342,9 @@
     "attachments/NxpNfcRdLib_PN5180_v07.10.00_Pub.zip",
     "attachments/AN11802.pdf",
     "attachments/Pasted image 20250203212129.png",
-    "attachments/Pasted image 20250203214904.png",
-    "attachments/Pasted image 20250203215158.png",
     "attachments/NFC-Data-Exchange-Format-NDEF.pdf",
-    "attachments/pacs-iclass-card-ds-en_0.pdf",
     "Wiki/Types of cards and standards.md",
     "pinout.xyz.md",
-    "Wiki/attachments",
     "NDEF.md",
     "Types of cards and standards.md",
     "Example page.md",

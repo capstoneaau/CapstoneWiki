@@ -1,5 +1,6 @@
 {
   "attachmentFolderPath": "./attachments",
   "vimMode": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true
 }

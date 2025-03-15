@@ -9,4 +9,4 @@ Good luck.
 - [[PN5180 to Arduino and ESP32]]
 - [[NDEF]]
 - [[Types of cards and standards]]
-- [[Initial Research]]
+- [[Background (Initial) Research]]

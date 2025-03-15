@@ -45,3 +45,11 @@ Make sure that SPI is enabled. If it's not, enable it in the `raspi-config` util
 	- `cmake ..`
 	- `make all`
 5. After everything has (hopefully) compiled, you can run each example binary in `_build/Examples/`. A description of each example can be found in `AN11802.pdf`.
+
+### pyPN5180-fork
+Our own fork of the pyPN5180 library. Current aim is to re-implement features that are missing from [[PN5180 to Arduino and ESP32#ATrappmann's PN5180-Library |ATrappMann's library]].
+
+##### Issues faced:
+Differences between SPI handling between Arduino's SPI library and Linux's spidev (and by extension the python wrapper). SPI transfers deassert chip select between transmissions by default, which is not allowed on the PN5180 (see below). Solution: use `xfer2` instead of `xfer`. 
+
+>The whole transmit buffer shall be written at once as well. No NSS assertion is allowed during data transfer. [[PN5180A0XX-C1-C2.pdf#page=19&selection=30,20,31,42|PN5180A0XX-C1-C2, page 19]] 

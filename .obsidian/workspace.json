@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wiki/PN5180 to Arduino and ESP32.md",
+                "file": "Wiki/PN5180 to Raspberry Pi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PN5180 to Arduino and ESP32"
+              "title": "PN5180 to Raspberry Pi"
             }
           },
           {
@@ -280,19 +280,19 @@
     }
   },
   "floating": {
-    "id": "4d297006aa381486",
+    "id": "3d88ea37a5efca66",
     "type": "floating",
     "children": [
       {
-        "id": "7d597a40fea08d4f",
+        "id": "70b0c88e27d545b5",
         "type": "window",
         "children": [
           {
-            "id": "c26feacc9713b60a",
+            "id": "7dfb920f309fc1b9",
             "type": "tabs",
             "children": [
               {
-                "id": "b6221de7e1a2520b",
+                "id": "a2ac5a87ce5103d2",
                 "type": "leaf",
                 "state": {
                   "type": "canvas",
@@ -312,8 +312,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 510,
-        "y": 555,
+        "x": 1901,
+        "y": 316,
         "width": 800,
         "height": 400,
         "maximize": false,
@@ -321,38 +321,38 @@
       }
     ]
   },
-  "active": "b6221de7e1a2520b",
+  "active": "1baba19122c362ad",
   "lastOpenFiles": [
-    "index.md",
-    "Wiki/PN5180 to Raspberry Pi.md",
     "Wiki/PN5180 to Arduino and ESP32.md",
     "Wiki/NDEF.md",
+    "Wiki/Magic Cards.md",
     "Wiki/Bluefin SRS.md",
     "Wiki/Background (Initial) Research.md",
+    "Wiki/PN5180 to Raspberry Pi.md",
+    "index.md",
+    "attachments/EM4305 T5577 Blank Card RFID Chip Cards 125 khz Copy Rewritable Writable Rewrite Duplicate 125khz - AliExpress 30.pdf",
+    "attachments/iCLASS® Compatible Blank Tag For icopy-xs From Nikola T. Lab - AliExpress 30.pdf",
+    "attachments/1PCS NFC 13.56MHz FeliCa Lite-S RC-S966 ISO18092 Card TAG 1PCS - AliExpress 30.pdf",
+    "attachments/4 Byte & 7 Byte Desfire with UID, SAK, ATQA, ATS Changeable - AliExpress 30.pdf",
+    "attachments/Ultimate Magic Card and Fob– Gen4 - AliExpress 30.pdf",
+    "attachments/5pcs_896 bits EEPROM memory ISO 15693 UID Changeable By Lua Script by Iceman PM3 13.56Mhz RFID 0 BLOCK UID are Customizables - AliExpress 30.pdf",
+    "Types of cards.canvas",
+    "docs/wiki/magic-cards.html",
+    "docs/wiki/background-(initial)-research.html",
+    "docs/wiki/attachments/pn5180a0xx-c1-c2.pdf",
+    "docs/wiki/attachments/esp32-pinout.avif",
     "Wiki/attachments/PN5180A0XX-C1-C2.pdf",
-    "Wiki/Magic Cards.md",
-    "attachments/AN11802.pdf",
     "Wiki/attachments/esp32 pinout.avif",
     "Wiki/Nxplib notes.md",
-    "Types of cards.canvas",
     "docs/lib/media/bluefin-architecture-diagram.drawio.svg",
-    "docs/wiki/bluefin-srs.html",
     "docs/wiki/attachments/pasted-image-20250311031524.png",
-    "docs/wiki/attachments",
     "docs/attachments/bluefin-architecture-diagram.drawio.svg",
     "attachments/Bluefin-Architecture-Diagram.drawio.svg",
-    "attachments/Bluefin-Architecture-Diagram.drawio",
     "Wiki/attachments/Pasted image 20250311031524.png",
-    "Wiki/attachments",
-    "docs/wiki/nxplib-notes.html",
     "Untitled 1.md",
     "docs/lib/media/6155340132a851f6089e.svg",
     "docs/lib/media/pasted-image-20250203215158.png",
     "docs/lib/media/pasted-image-20250203214904.png",
-    "docs/lib/media/pasted-image-20250203212129.png",
-    "docs/wiki/pn5180-to-raspberry-pi.html",
-    "docs/wiki/pn5180-to-arduino-and-esp32.html",
-    "docs/attachments/nxpnfcrdlib_pn5180_v07.10.00_pub.zip",
     "Wiki/Types of cards and standards.md",
     "pinout.xyz.md",
     "NDEF.md",

@@ -1,8 +1,8 @@
 {
   "vaultName": "Capstone Wiki",
-  "lastExport": 1742081137779,
+  "lastExport": 1745216142651,
   "pluginVersion": "1.8.01",
-  "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
@@ -23,22 +23,23 @@
     "attachments/Ultimate Magic Card and Fob– Gen4 - AliExpress 30.pdf",
     "Wiki/attachments/esp32 pinout.avif",
     "Wiki/attachments/Pasted image 20250311031524.png",
+    "Wiki/attachments/Pasted image 20250421100533.png",
     "Wiki/attachments/PN5180A0XX-C1-C2.pdf",
+    "Wiki/dumps/Hafilat no-auth dump.md",
+    "Wiki/3D Print v1 notes.md",
     "Wiki/Background (Initial) Research.md",
     "Wiki/Bluefin SRS.md",
     "Wiki/Magic Cards.md",
     "Wiki/NDEF.md",
+    "Wiki/Notes on (Web)Sockets.md",
     "Wiki/Nxplib notes.md",
     "Wiki/PN5180 to Arduino and ESP32.md",
     "Wiki/PN5180 to Raspberry Pi.md",
     "Wiki/Types of cards and standards.md",
+    "Wiki/Understanding DESFire.md",
     "index.md",
     "Types of cards.canvas",
     "lib/media/bluefin-architecture-diagram.drawio.svg",
-    "lib/media/em4305-t5577-blank-card-rfid-chip-cards-125-khz-copy-rewritable-writable-rewrite-duplicate-125khz-aliexpress-30.pdf",
-    "lib/media/4-byte-&-7-byte-desfire-with-uid,-sak,-atqa,-ats-changeable-aliexpress-30.pdf",
-    "lib/media/ultimate-magic-card-and-fob–-gen4-aliexpress-30.pdf",
-    "lib/media/5pcs_896-bits-eeprom-memory-iso-15693-uid-changeable-by-lua-script-by-iceman-pm3-13.56mhz-rfid-0-block-uid-are-customizables-aliexpress-30.pdf",
     "lib/media/pasted-image-20250119232441.png",
     "lib/media/nfc-data-exchange-format-ndef.pdf",
     "lib/media/pasted-image-20250203212129.png",
@@ -74,7 +75,8 @@
     "lib/styles/global-variable-styles.css",
     "lib/styles/main-styles.css",
     "wiki/attachments/pasted-image-20250311031524.png",
-    "wiki/attachments/esp32-pinout.avif"
+    "wiki/attachments/esp32-pinout.avif",
+    "wiki/attachments/pasted-image-20250421100533.png"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -109,25 +111,25 @@
   ],
   "fileInfo": {
     "attachments/NFC-Data-Exchange-Format-NDEF.pdf": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 270062,
       "exportedPath": "attachments/nfc-data-exchange-format-ndef.pdf",
       "dependencies": []
     },
     "attachments/pacs-iclass-card-ds-en_0.pdf": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 281524,
       "exportedPath": "attachments/pacs-iclass-card-ds-en_0.pdf",
       "dependencies": []
     },
     "attachments/Pasted image 20250119232441.png": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 39717,
       "exportedPath": "attachments/pasted-image-20250119232441.png",
       "dependencies": []
     },
     "Wiki/NDEF.md": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 398,
       "exportedPath": "wiki/ndef.html",
       "dependencies": [
@@ -136,115 +138,115 @@
       ]
     },
     "Wiki/Types of cards and standards.md": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 2499,
       "exportedPath": "wiki/types-of-cards-and-standards.html",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1742081137779,
-      "sourceSize": 323,
+      "modifiedTime": 1745216142651,
+      "sourceSize": 351,
       "exportedPath": "index.html",
       "dependencies": []
     },
     "Types of cards.canvas": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 603,
       "exportedPath": "types-of-cards.html",
       "dependencies": []
     },
     "lib/media/pasted-image-20250119232441.png": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 39717,
       "exportedPath": "lib/media/pasted-image-20250119232441.png",
       "dependencies": []
     },
     "lib/media/nfc-data-exchange-format-ndef.pdf": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 270062,
       "exportedPath": "lib/media/nfc-data-exchange-format-ndef.pdf",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
@@ -256,121 +258,121 @@
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1742081137779,
-      "sourceSize": 26041,
+      "modifiedTime": 1745216142651,
+      "sourceSize": 30820,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1742081137779,
-      "sourceSize": 904,
+      "modifiedTime": 1745216142651,
+      "sourceSize": 1101,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 137466,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 2104,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "attachments/AN11802.pdf": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 1058883,
       "exportedPath": "attachments/an11802.pdf",
       "dependencies": []
     },
     "attachments/NxpNfcRdLib_PN5180_v07.10.00_Pub.zip": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 13360507,
       "exportedPath": "attachments/nxpnfcrdlib_pn5180_v07.10.00_pub.zip",
       "dependencies": []
     },
     "attachments/Pasted image 20250203212129.png": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 75226,
       "exportedPath": "attachments/pasted-image-20250203212129.png",
       "dependencies": []
     },
     "attachments/Pasted image 20250203214904.png": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 11031,
       "exportedPath": "attachments/pasted-image-20250203214904.png",
       "dependencies": []
     },
     "attachments/Pasted image 20250203215158.png": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 7796,
       "exportedPath": "attachments/pasted-image-20250203215158.png",
       "dependencies": []
     },
     "Wiki/PN5180 to Arduino and ESP32.md": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 707,
       "exportedPath": "wiki/pn5180-to-arduino-and-esp32.html",
       "dependencies": [
@@ -378,7 +380,7 @@
       ]
     },
     "Wiki/PN5180 to Raspberry Pi.md": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 4234,
       "exportedPath": "wiki/pn5180-to-raspberry-pi.html",
       "dependencies": [
@@ -388,49 +390,49 @@
       ]
     },
     "lib/media/pasted-image-20250203212129.png": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 75226,
       "exportedPath": "lib/media/pasted-image-20250203212129.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20250203214904.png": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 11031,
       "exportedPath": "lib/media/pasted-image-20250203214904.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20250203215158.png": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 7796,
       "exportedPath": "lib/media/pasted-image-20250203215158.png",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "Wiki/Nxplib notes.md": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 706,
       "exportedPath": "wiki/nxplib-notes.html",
       "dependencies": []
     },
     "attachments/Bluefin-Architecture-Diagram.drawio.svg": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 186188,
       "exportedPath": "attachments/bluefin-architecture-diagram.drawio.svg",
       "dependencies": []
     },
     "Wiki/attachments/Pasted image 20250311031524.png": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 17582,
       "exportedPath": "wiki/attachments/pasted-image-20250311031524.png",
       "dependencies": []
     },
     "Wiki/Bluefin SRS.md": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 1309,
       "exportedPath": "wiki/bluefin-srs.html",
       "dependencies": [
@@ -439,110 +441,119 @@
       ]
     },
     "wiki/attachments/pasted-image-20250311031524.png": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 17582,
       "exportedPath": "wiki/attachments/pasted-image-20250311031524.png",
       "dependencies": []
     },
     "lib/media/bluefin-architecture-diagram.drawio.svg": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 186188,
       "exportedPath": "lib/media/bluefin-architecture-diagram.drawio.svg",
       "dependencies": []
     },
     "Wiki/attachments/esp32 pinout.avif": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 60990,
       "exportedPath": "wiki/attachments/esp32-pinout.avif",
       "dependencies": []
     },
     "Wiki/attachments/PN5180A0XX-C1-C2.pdf": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 1124306,
       "exportedPath": "wiki/attachments/pn5180a0xx-c1-c2.pdf",
       "dependencies": []
     },
     "Wiki/Background (Initial) Research.md": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 5969,
       "exportedPath": "wiki/background-(initial)-research.html",
       "dependencies": []
     },
     "Wiki/Magic Cards.md": {
-      "modifiedTime": 1742081137779,
-      "sourceSize": 886,
+      "modifiedTime": 1745216142651,
+      "sourceSize": 1159,
       "exportedPath": "wiki/magic-cards.html",
-      "dependencies": [
-        "lib/media/em4305-t5577-blank-card-rfid-chip-cards-125-khz-copy-rewritable-writable-rewrite-duplicate-125khz-aliexpress-30.pdf",
-        "lib/media/4-byte-&-7-byte-desfire-with-uid,-sak,-atqa,-ats-changeable-aliexpress-30.pdf",
-        "lib/media/ultimate-magic-card-and-fob–-gen4-aliexpress-30.pdf",
-        "lib/media/5pcs_896-bits-eeprom-memory-iso-15693-uid-changeable-by-lua-script-by-iceman-pm3-13.56mhz-rfid-0-block-uid-are-customizables-aliexpress-30.pdf"
-      ]
+      "dependencies": []
     },
     "wiki/attachments/esp32-pinout.avif": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 60990,
       "exportedPath": "wiki/attachments/esp32-pinout.avif",
       "dependencies": []
     },
     "attachments/1PCS NFC 13.56MHz FeliCa Lite-S RC-S966 ISO18092 Card TAG 1PCS - AliExpress 30.pdf": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 2846665,
       "exportedPath": "attachments/1pcs-nfc-13.56mhz-felica-lite-s-rc-s966-iso18092-card-tag-1pcs-aliexpress-30.pdf",
       "dependencies": []
     },
     "attachments/4 Byte & 7 Byte Desfire with UID, SAK, ATQA, ATS Changeable - AliExpress 30.pdf": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 3295976,
       "exportedPath": "attachments/4-byte-&-7-byte-desfire-with-uid,-sak,-atqa,-ats-changeable-aliexpress-30.pdf",
       "dependencies": []
     },
     "attachments/5pcs_896 bits EEPROM memory ISO 15693 UID Changeable By Lua Script by Iceman PM3 13.56Mhz RFID 0 BLOCK UID are Customizables - AliExpress 30.pdf": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 14168028,
       "exportedPath": "attachments/5pcs_896-bits-eeprom-memory-iso-15693-uid-changeable-by-lua-script-by-iceman-pm3-13.56mhz-rfid-0-block-uid-are-customizables-aliexpress-30.pdf",
       "dependencies": []
     },
     "attachments/EM4305 T5577 Blank Card RFID Chip Cards 125 khz Copy Rewritable Writable Rewrite Duplicate 125khz - AliExpress 30.pdf": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 2539420,
       "exportedPath": "attachments/em4305-t5577-blank-card-rfid-chip-cards-125-khz-copy-rewritable-writable-rewrite-duplicate-125khz-aliexpress-30.pdf",
       "dependencies": []
     },
     "attachments/iCLASS® Compatible Blank Tag For icopy-xs From Nikola T. Lab - AliExpress 30.pdf": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 2390395,
       "exportedPath": "attachments/iclass®-compatible-blank-tag-for-icopy-xs-from-nikola-t.-lab-aliexpress-30.pdf",
       "dependencies": []
     },
     "attachments/Ultimate Magic Card and Fob– Gen4 - AliExpress 30.pdf": {
-      "modifiedTime": 1742081137779,
+      "modifiedTime": 1745216142651,
       "sourceSize": 2237808,
       "exportedPath": "attachments/ultimate-magic-card-and-fob–-gen4-aliexpress-30.pdf",
       "dependencies": []
     },
-    "lib/media/em4305-t5577-blank-card-rfid-chip-cards-125-khz-copy-rewritable-writable-rewrite-duplicate-125khz-aliexpress-30.pdf": {
-      "modifiedTime": 1742081137779,
-      "sourceSize": 2539420,
-      "exportedPath": "lib/media/em4305-t5577-blank-card-rfid-chip-cards-125-khz-copy-rewritable-writable-rewrite-duplicate-125khz-aliexpress-30.pdf",
+    "Wiki/attachments/Pasted image 20250421100533.png": {
+      "modifiedTime": 1745216142651,
+      "sourceSize": 42878,
+      "exportedPath": "wiki/attachments/pasted-image-20250421100533.png",
       "dependencies": []
     },
-    "lib/media/4-byte-&-7-byte-desfire-with-uid,-sak,-atqa,-ats-changeable-aliexpress-30.pdf": {
-      "modifiedTime": 1742081137779,
-      "sourceSize": 3295976,
-      "exportedPath": "lib/media/4-byte-&-7-byte-desfire-with-uid,-sak,-atqa,-ats-changeable-aliexpress-30.pdf",
+    "Wiki/dumps/Hafilat no-auth dump.md": {
+      "modifiedTime": 1745216142651,
+      "sourceSize": 25379,
+      "exportedPath": "wiki/dumps/hafilat-no-auth-dump.html",
       "dependencies": []
     },
-    "lib/media/ultimate-magic-card-and-fob–-gen4-aliexpress-30.pdf": {
-      "modifiedTime": 1742081137779,
-      "sourceSize": 2237808,
-      "exportedPath": "lib/media/ultimate-magic-card-and-fob–-gen4-aliexpress-30.pdf",
+    "Wiki/3D Print v1 notes.md": {
+      "modifiedTime": 1745216142651,
+      "sourceSize": 0,
+      "exportedPath": "wiki/3d-print-v1-notes.html",
       "dependencies": []
     },
-    "lib/media/5pcs_896-bits-eeprom-memory-iso-15693-uid-changeable-by-lua-script-by-iceman-pm3-13.56mhz-rfid-0-block-uid-are-customizables-aliexpress-30.pdf": {
-      "modifiedTime": 1742081137779,
-      "sourceSize": 14168028,
-      "exportedPath": "lib/media/5pcs_896-bits-eeprom-memory-iso-15693-uid-changeable-by-lua-script-by-iceman-pm3-13.56mhz-rfid-0-block-uid-are-customizables-aliexpress-30.pdf",
+    "Wiki/Notes on (Web)Sockets.md": {
+      "modifiedTime": 1745216142651,
+      "sourceSize": 66,
+      "exportedPath": "wiki/notes-on-(web)sockets.html",
+      "dependencies": []
+    },
+    "Wiki/Understanding DESFire.md": {
+      "modifiedTime": 1745216142651,
+      "sourceSize": 1070,
+      "exportedPath": "wiki/understanding-desfire.html",
+      "dependencies": [
+        "wiki/attachments/pasted-image-20250421100533.png"
+      ]
+    },
+    "wiki/attachments/pasted-image-20250421100533.png": {
+      "modifiedTime": 1745216142651,
+      "sourceSize": 42878,
+      "exportedPath": "wiki/attachments/pasted-image-20250421100533.png",
       "dependencies": []
     }
   }

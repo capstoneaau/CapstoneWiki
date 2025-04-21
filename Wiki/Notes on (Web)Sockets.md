@@ -1,0 +1,1 @@
+- The default protocol is `ws://` (insecure) and `wss://` (secure)

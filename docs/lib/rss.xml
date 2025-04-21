@@ -1,4 +1,410 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Capstone Wiki]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://kquote03.github.io/CapstoneWiki/</link><image><url>https://kquote03.github.io/CapstoneWiki/lib/media/favicon.png</url><title>Capstone Wiki</title><link>https://kquote03.github.io/CapstoneWiki/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 15 Mar 2025 23:25:47 GMT</lastBuildDate><atom:link href="https://kquote03.github.io/CapstoneWiki/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 15 Mar 2025 23:25:37 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Background (Initial) Research]]></title><description><![CDATA[<a class="tag" href="https://kquote03.github.io/CapstoneWiki/?query=tag:BankCard" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#BankCard</a> <a class="tag" href="https://kquote03.github.io/CapstoneWiki/?query=tag:EmiratesID" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#EmiratesID</a> <a class="tag" href="https://kquote03.github.io/CapstoneWiki/?query=tag:PublicBusCard" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#PublicBusCard</a> <a class="tag" href="https://kquote03.github.io/CapstoneWiki/?query=tag:UniversityCard" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#UniversityCard</a> <a class="tag" href="https://kquote03.github.io/CapstoneWiki/?query=tag:PublicBusCard" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#PublicBusCard</a> <a class="tag" href="https://kquote03.github.io/CapstoneWiki/?query=tag:EmiratesID" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#EmiratesID</a> <a class="tag" href="https://kquote03.github.io/CapstoneWiki/?query=tag:BankCard" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#BankCard</a> <a class="tag" href="https://kquote03.github.io/CapstoneWiki/?query=tag:UniversityCard" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#UniversityCard</a> 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Capstone Wiki]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://kquote03.github.io/CapstoneWiki/</link><image><url>https://kquote03.github.io/CapstoneWiki/lib/media/favicon.png</url><title>Capstone Wiki</title><link>https://kquote03.github.io/CapstoneWiki/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 21 Apr 2025 06:15:45 GMT</lastBuildDate><atom:link href="https://kquote03.github.io/CapstoneWiki/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 21 Apr 2025 06:15:42 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Hafilat no-auth dump]]></title><description><![CDATA[ 
+ <br>[usb] pm3 --&gt; hf mfdes dump --aid F20701 --no-auth  
+[!!] 🚨 Desfire GetFileISOIDList command error. Result: -20  
+[!] ⚠ &nbsp;ISO ID list returned no data  
+  
+[+] Application AID f20701 have 29 files  
+[+] &nbsp;&nbsp;AID mapped to MIFARE Classic AID (MAD): 2070  
+[+] &nbsp;&nbsp;&nbsp;MAD AID Cluster &nbsp;0x20..... reserved  
+[=] &nbsp;&nbsp;&nbsp;MAD AID Function 0x2070... &nbsp;(unknown)  
+  
+[=] --------------------------------- File 00 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 00  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e11f &nbsp;(r: free w: key 0x01 rw: key 0x01 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 00 data -------------------------------  
+[+] Read 29 bytes from file 0x00 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | 04 3B C2 08 00 5D 9A 10 00 12 00 80 00 00 00 00 | .;...]..........  
+[=] &nbsp;16/0x10 | 00 00 00 00 00 00 00 00 00 00 00 00 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| .............  
+  
+[=] --------------------------------- File 01 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 01  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Linear Record &nbsp;[0x03]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] Record count &nbsp;&nbsp;&nbsp;: 0 [0x0]  
+[+] Max record count: 10 [0xa]  
+[+] Record size &nbsp;&nbsp;&nbsp;&nbsp;: 1 [0x1] bytes  
+[+] Access rights &nbsp;&nbsp;: e31f &nbsp;(r: free w: key 0x03 rw: key 0x01 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 01 data -------------------------------  
+[!!] 🚨 Desfire ReadRecords command error. Result: -20  
+  
+[=] --------------------------------- File 02 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 02  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e32f &nbsp;(r: free w: key 0x03 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 02 data -------------------------------  
+[+] Read 29 bytes from file 0x02 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | 1E 19 27 08 00 00 00 00 00 00 00 00 00 00 00 00 | ..'.............  
+[=] &nbsp;16/0x10 | 00 00 00 00 00 00 00 00 00 00 00 00 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| .............  
+  
+[=] --------------------------------- File 03 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 03  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e32f &nbsp;(r: free w: key 0x03 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 03 data -------------------------------  
+[+] Read 29 bytes from file 0x03 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | A1 28 24 68 23 A0 50 08 2C 01 9C 92 00 47 AC 34 | .($h#.P.,....G.4  
+[=] &nbsp;16/0x10 | 00 21 ED CC D7 A1 28 0C A1 E0 B0 20 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| .!....(.... .  
+  
+[=] --------------------------------- File 04 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 04  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e32f &nbsp;(r: free w: key 0x03 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 04 data -------------------------------  
+[+] Read 29 bytes from file 0x04 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | A1 28 0C E8 23 A0 50 04 2C 01 9C 92 00 47 AC 34 | .(..#.P.,....G.4  
+[=] &nbsp;16/0x10 | 00 20 0A 4D D7 A1 28 0C A1 E0 B0 20 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| . .M..(.... .  
+  
+[=] --------------------------------- File 05 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 05  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e32f &nbsp;(r: free w: key 0x03 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 05 data -------------------------------  
+[+] Read 29 bytes from file 0x05 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | A1 25 FD 68 23 A0 50 08 2C 01 98 8E 3C 13 54 34 | .%.h#.P.,...&lt;.T4  
+[=] &nbsp;16/0x10 | 00 20 14 8E B7 A1 25 E9 91 E0 B0 20 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| . ....%.... .  
+  
+[=] --------------------------------- File 06 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 06  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e32f &nbsp;(r: free w: key 0x03 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 06 data -------------------------------  
+[+] Read 29 bytes from file 0x06 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | A1 25 E9 E8 23 A0 50 04 2C 01 98 8E 3C 13 54 34 | .%..#.P.,...&lt;.T4  
+[=] &nbsp;16/0x10 | 00 21 ED CC B7 A1 25 E9 91 E0 B0 20 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| .!....%.... .  
+  
+[=] --------------------------------- File 08 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 08  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Standard data &nbsp;[0x00]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 32 [0x20] bytes  
+[+] Access rights &nbsp;&nbsp;: efff &nbsp;(r: free w: disabled rw: disabled change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 08 data -------------------------------  
+[+] Read 32 bytes from file 0x08 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | 01 00 01 01 01 02 01 03 01 04 01 12 07 24 0D 01 | .............$..  
+[=] &nbsp;16/0x10 | 00 00 05 21 41 42 55 20 44 48 41 42 49 03 01 00 | ...!ABU DHABI...  
+  
+[=] --------------------------------- File 09 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 09  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e32f &nbsp;(r: free w: key 0x03 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 09 data -------------------------------  
+[+] Read 29 bytes from file 0x09 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | 99 80 EB 48 23 E0 70 44 08 2C 01 0C C0 C4 74 68 | ...H#.pD.,....th  
+[=] &nbsp;16/0x10 | 12 B8 34 00 33 99 79 67 20 00 00 00 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ..4.3.yg ....  
+  
+[=] --------------------------------- File 0a ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0a  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e32f &nbsp;(r: free w: key 0x03 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 0a data -------------------------------  
+[+] Read 29 bytes from file 0x0a offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | 0D 00 0C 28 00 00 00 00 00 00 00 00 00 00 00 00 | ...(............  
+[=] &nbsp;16/0x10 | 00 00 00 00 00 00 00 00 80 08 3B 41 A0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ..........;A.  
+  
+[=] --------------------------------- File 0b ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0b  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e32f &nbsp;(r: free w: key 0x03 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 0b data -------------------------------  
+[+] Read 29 bytes from file 0x0b offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................  
+[=] &nbsp;16/0x10 | 00 00 00 00 00 00 00 00 00 00 00 00 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| .............  
+  
+[=] --------------------------------- File 0c ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0c  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Value &nbsp;[0x02]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] Lower limit &nbsp;&nbsp;&nbsp;&nbsp;: 0 [0x0]  
+[+] Upper limit &nbsp;&nbsp;&nbsp;&nbsp;: 2147483647 [0x7fffffff]  
+[+] Limited credit &nbsp;: [0 - disabled] 338 (0x00000152)  
+[+] GetValue access : Not Free  
+[+] Access rights &nbsp;&nbsp;: 322f &nbsp;(r: key 0x03 w: key 0x02 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[!] ⚠ &nbsp;File needs to be authenticated with key 0x03 or 0x02 but current authentication key is 0x00  
+[=] ------------------------------- File 0c data -------------------------------  
+[!!] 🚨 Desfire GetValue operation error. Result: -20  
+  
+[=] --------------------------------- File 0d ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0d  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Value &nbsp;[0x02]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] Lower limit &nbsp;&nbsp;&nbsp;&nbsp;: 0 [0x0]  
+[+] Upper limit &nbsp;&nbsp;&nbsp;&nbsp;: 2147483647 [0x7fffffff]  
+[+] Limited credit &nbsp;: [0 - disabled] 0 (0x00000000)  
+[+] GetValue access : Not Free  
+[+] Access rights &nbsp;&nbsp;: 322f &nbsp;(r: key 0x03 w: key 0x02 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[!] ⚠ &nbsp;File needs to be authenticated with key 0x03 or 0x02 but current authentication key is 0x00  
+[=] ------------------------------- File 0d data -------------------------------  
+[!!] 🚨 Desfire GetValue operation error. Result: -20  
+  
+[=] --------------------------------- File 0e ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0e  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Value &nbsp;[0x02]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] Lower limit &nbsp;&nbsp;&nbsp;&nbsp;: 0 [0x0]  
+[+] Upper limit &nbsp;&nbsp;&nbsp;&nbsp;: 2147483647 [0x7fffffff]  
+[+] Limited credit &nbsp;: [0 - disabled] 0 (0x00000000)  
+[+] GetValue access : Not Free  
+[+] Access rights &nbsp;&nbsp;: 322f &nbsp;(r: key 0x03 w: key 0x02 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[!] ⚠ &nbsp;File needs to be authenticated with key 0x03 or 0x02 but current authentication key is 0x00  
+[=] ------------------------------- File 0e data -------------------------------  
+[!!] 🚨 Desfire GetValue operation error. Result: -20  
+  
+[=] --------------------------------- File 0f ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 0f  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Value &nbsp;[0x02]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] Lower limit &nbsp;&nbsp;&nbsp;&nbsp;: 0 [0x0]  
+[+] Upper limit &nbsp;&nbsp;&nbsp;&nbsp;: 2147483647 [0x7fffffff]  
+[+] Limited credit &nbsp;: [0 - disabled] 0 (0x00000000)  
+[+] GetValue access : Not Free  
+[+] Access rights &nbsp;&nbsp;: 322f &nbsp;(r: key 0x03 w: key 0x02 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[!] ⚠ &nbsp;File needs to be authenticated with key 0x03 or 0x02 but current authentication key is 0x00  
+[=] ------------------------------- File 0f data -------------------------------  
+[!!] 🚨 Desfire GetValue operation error. Result: -20  
+  
+[=] --------------------------------- File 10 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 10  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e22f &nbsp;(r: free w: key 0x02 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 10 data -------------------------------  
+[+] Read 29 bytes from file 0x10 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | CE 02 4E 20 CD 73 B4 80 02 80 08 9F 93 FC 00 2C | ..N .s.........,  
+[=] &nbsp;16/0x10 | 00 00 00 00 00 00 00 00 00 00 00 00 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| .............  
+  
+[=] --------------------------------- File 11 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 11  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e22f &nbsp;(r: free w: key 0x02 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 11 data -------------------------------  
+[+] Read 29 bytes from file 0x11 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................  
+[=] &nbsp;16/0x10 | 00 00 00 00 00 00 00 00 00 00 00 00 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| .............  
+  
+[=] --------------------------------- File 12 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 12  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e22f &nbsp;(r: free w: key 0x02 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 12 data -------------------------------  
+[+] Read 29 bytes from file 0x12 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................  
+[=] &nbsp;16/0x10 | 00 00 00 00 00 00 00 00 00 00 00 00 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| .............  
+  
+[=] --------------------------------- File 13 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 13  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e22f &nbsp;(r: free w: key 0x02 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 13 data -------------------------------  
+[+] Read 29 bytes from file 0x13 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................  
+[=] &nbsp;16/0x10 | 00 00 00 00 00 00 00 00 00 00 00 00 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| .............  
+  
+[=] --------------------------------- File 14 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 14  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e22f &nbsp;(r: free w: key 0x02 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 14 data -------------------------------  
+[+] Read 29 bytes from file 0x14 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................  
+[=] &nbsp;16/0x10 | 00 00 00 00 00 00 00 00 00 00 00 00 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| .............  
+  
+[=] --------------------------------- File 15 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 15  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e22f &nbsp;(r: free w: key 0x02 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 15 data -------------------------------  
+[+] Read 29 bytes from file 0x15 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................  
+[=] &nbsp;16/0x10 | 00 00 00 00 00 00 00 00 00 00 00 00 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| .............  
+  
+[=] --------------------------------- File 16 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 16  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e22f &nbsp;(r: free w: key 0x02 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 16 data -------------------------------  
+[+] Read 29 bytes from file 0x16 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................  
+[=] &nbsp;16/0x10 | 00 00 00 00 00 00 00 00 00 00 00 00 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| .............  
+  
+[=] --------------------------------- File 17 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 17  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 29 [0x1d] bytes  
+[+] Access rights &nbsp;&nbsp;: e22f &nbsp;(r: free w: key 0x02 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 17 data -------------------------------  
+[+] Read 29 bytes from file 0x17 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................  
+[=] &nbsp;16/0x10 | 00 00 00 00 00 00 00 00 00 00 00 00 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| .............  
+  
+[=] --------------------------------- File 18 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 18  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 31 [0x1f] bytes  
+[+] Access rights &nbsp;&nbsp;: e32f &nbsp;(r: free w: key 0x03 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 18 data -------------------------------  
+[+] Read 31 bytes from file 0x18 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | 38 00 02 84 A0 08 A0 0C 80 01 00 00 00 00 00 00 | 8...............  
+[=] &nbsp;16/0x10 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 &nbsp;&nbsp;&nbsp;| ...............  
+  
+[=] --------------------------------- File 19 ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 19  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 30 [0x1e] bytes  
+[+] Access rights &nbsp;&nbsp;: e32f &nbsp;(r: free w: key 0x03 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 19 data -------------------------------  
+[+] Read 30 bytes from file 0x19 offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................  
+[=] &nbsp;16/0x10 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ..............  
+  
+[=] --------------------------------- File 1b ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 1b  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 32 [0x20] bytes  
+[+] Access rights &nbsp;&nbsp;: 344f &nbsp;(r: key 0x03 w: key 0x04 rw: key 0x04 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[!] ⚠ &nbsp;File needs to be authenticated with key 0x03 or 0x04 but current authentication key is 0x00  
+[=] ------------------------------- File 1b data -------------------------------  
+[!!] 🚨 Desfire ReadFile command error. Result: -20  
+  
+[=] --------------------------------- File 1c ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 1c  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Backup data &nbsp;[0x01]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 32 [0x20] bytes  
+[+] Access rights &nbsp;&nbsp;: 344f &nbsp;(r: key 0x03 w: key 0x04 rw: key 0x04 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[!] ⚠ &nbsp;File needs to be authenticated with key 0x03 or 0x04 but current authentication key is 0x00  
+[=] ------------------------------- File 1c data -------------------------------  
+[!!] 🚨 Desfire ReadFile command error. Result: -20  
+  
+[=] --------------------------------- File 1d ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 1d  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Linear Record &nbsp;[0x03]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] Record count &nbsp;&nbsp;&nbsp;: 0 [0x0]  
+[+] Max record count: 10 [0xa]  
+[+] Record size &nbsp;&nbsp;&nbsp;&nbsp;: 1 [0x1] bytes  
+[+] Access rights &nbsp;&nbsp;: e34f &nbsp;(r: free w: key 0x03 rw: key 0x04 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 1d data -------------------------------  
+[!!] 🚨 Desfire ReadRecords command error. Result: -20  
+  
+[=] --------------------------------- File 1e ----------------------------------  
+[+] File ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 1e  
+[+] File type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Standard data &nbsp;[0x00]  
+[+] Comm mode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: MAC  
+[+] File size &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 2 [0x2] bytes  
+[+] Access rights &nbsp;&nbsp;: e32f &nbsp;(r: free w: key 0x03 rw: key 0x02 change: disabled)  
+[!] ⚠ &nbsp;File needs communication mode `mac` but there is no authentication  
+[=] ------------------------------- File 1e data -------------------------------  
+[+] Read 2 bytes from file 0x1e offset 0  
+[=] &nbsp;Offset &nbsp;| Data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Ascii  
+[=] ----------------------------------------------------------------------------  
+[=] &nbsp;&nbsp;0/0x00 | 03 FC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| ..  
+[usb] pm3 --&gt;
+]]></description><link>https://kquote03.github.io/CapstoneWiki/wiki/dumps/hafilat-no-auth-dump.html</link><guid isPermaLink="false">Wiki/dumps/Hafilat no-auth dump.md</guid><pubDate>Sun, 20 Apr 2025 18:54:25 GMT</pubDate></item><item><title><![CDATA[3D Print v1 notes]]></title><description><![CDATA[ 
+ ]]></description><link>https://kquote03.github.io/CapstoneWiki/wiki/3d-print-v1-notes.html</link><guid isPermaLink="false">Wiki/3D Print v1 notes.md</guid><pubDate>Thu, 10 Apr 2025 07:58:36 GMT</pubDate></item><item><title><![CDATA[Background (Initial) Research]]></title><description><![CDATA[<a class="tag" href="https://kquote03.github.io/CapstoneWiki/?query=tag:BankCard" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#BankCard</a> <a class="tag" href="https://kquote03.github.io/CapstoneWiki/?query=tag:EmiratesID" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#EmiratesID</a> <a class="tag" href="https://kquote03.github.io/CapstoneWiki/?query=tag:PublicBusCard" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#PublicBusCard</a> <a class="tag" href="https://kquote03.github.io/CapstoneWiki/?query=tag:UniversityCard" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#UniversityCard</a> <a class="tag" href="https://kquote03.github.io/CapstoneWiki/?query=tag:PublicBusCard" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#PublicBusCard</a> <a class="tag" href="https://kquote03.github.io/CapstoneWiki/?query=tag:EmiratesID" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#EmiratesID</a> <a class="tag" href="https://kquote03.github.io/CapstoneWiki/?query=tag:BankCard" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#BankCard</a> <a class="tag" href="https://kquote03.github.io/CapstoneWiki/?query=tag:UniversityCard" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#UniversityCard</a> 
  <br><br><br>(Explain how encryption is used in the DESFire Object portion of NXP cards)<br><br>Unique IDs (UIDs) in access cards refer to the first sector (sector 0) on NFC tags. This sector is initialized with a randomly-generated (or sequentially-generated, if specially requested) 4 or 7 byte ID from the factory. Once that sector is written, it cannot be modified again on normal cards. This prevents normal cards from acting as clone cards.<br>The purpose of a UID is to give each card a unique value to use for authentication/authorization. The ID is read by the reader and transmitted to an identity server or a simple database over OSDP/Wiegand. The server then compares between the received ID and the stored ID and access is granted or denied per the server's response.<br>Special cards known as <a data-href="Magic Cards" href="https://kquote03.github.io/CapstoneWiki/wiki/magic-cards.html" class="internal-link" target="_self" rel="noopener nofollow">Magic Cards</a> do exist in-which sector 0 is fully modifiable. Having a modifiable UID would allow an attacker to simply copy anyone's UID and impersonate them.<br>UIDs are often referred to as a card's serial number.<br><br>Explain them<br><br><br>
 <br>ISO 14443-4 (Used by <a href="https://kquote03.github.io/CapstoneWiki?query=tag:BankCard" class="tag" target="_blank" rel="noopener nofollow">#BankCard</a> <a href="https://kquote03.github.io/CapstoneWiki?query=tag:EmiratesID" class="tag" target="_blank" rel="noopener nofollow">#EmiratesID</a> <a href="https://kquote03.github.io/CapstoneWiki?query=tag:PublicBusCard" class="tag" target="_blank" rel="noopener nofollow">#PublicBusCard</a>)
 <br>ISO 14443-3A (Used by <a href="https://kquote03.github.io/CapstoneWiki?query=tag:UniversityCard" class="tag" target="_blank" rel="noopener nofollow">#UniversityCard</a>)
@@ -16,9 +422,13 @@
 <br>The interface shall be tightly coupled with the framework. For example, the interface should warn the user or illustrate the fact that a security measure failed the test, whilst relating the reason of failure to the framework.
 <br>The obvious: The application should be reliable, and should produce repeatable results. The application should be simple to use and abstract away the nitty gritty details of the readers, but should still provide a way to fine tune them if need be.
 ]]></description><link>https://kquote03.github.io/CapstoneWiki/wiki/bluefin-srs.html</link><guid isPermaLink="false">Wiki/Bluefin SRS.md</guid><pubDate>Wed, 12 Mar 2025 07:23:06 GMT</pubDate><enclosure url="https://kquote03.github.io/CapstoneWiki/wiki/attachments/pasted-image-20250311031524.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://kquote03.github.io/CapstoneWiki/wiki/attachments/pasted-image-20250311031524.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Magic Cards]]></title><description><![CDATA[ 
- <br>"Magic" or "UID-writable" cards are NFC tags that allow for the first sector (sector 0) to be written to, opposed to standard cards. Most (from conjecture) security systems only perform a simple check against the UID on the card vs the one stored on the authentication server (blindly trusting the UID). <a data-href="Background (Initial) Research#UID" href="https://kquote03.github.io/CapstoneWiki/wiki/background-(initial)-research.html#UID" class="internal-link" target="_self" rel="noopener nofollow">Background (Initial) Research &gt; UID</a><br><br><br><br><br><br><br>]]></description><link>https://kquote03.github.io/CapstoneWiki/wiki/magic-cards.html</link><guid isPermaLink="false">Wiki/Magic Cards.md</guid><pubDate>Sat, 15 Mar 2025 21:17:28 GMT</pubDate></item><item><title><![CDATA[NDEF]]></title><description><![CDATA[ 
+ <br>"Magic" or "UID-writable" cards are NFC tags that allow for the first sector (sector 0) to be written to, opposed to standard cards. Most (from conjecture) security systems only perform a simple check against the UID on the card vs the one stored on the authentication server (blindly trusting the UID). <a data-href="Background (Initial) Research#UID" href="https://kquote03.github.io/CapstoneWiki/wiki/background-(initial)-research.html#UID" class="internal-link" target="_self" rel="noopener nofollow">Background (Initial) Research &gt; UID</a><br><br>AliExpress listing: <a data-href="EM4305 T5577 Blank Card RFID Chip Cards 125 khz Copy Rewritable Writable Rewrite Duplicate 125khz - AliExpress 30.pdf" href="https://kquote03.github.io/CapstoneWiki/attachments/em4305-t5577-blank-card-rfid-chip-cards-125-khz-copy-rewritable-writable-rewrite-duplicate-125khz-aliexpress-30.pdf" class="internal-link" target="_self" rel="noopener nofollow">EM4305 T5577 Blank Card RFID Chip Cards 125 khz Copy Rewritable Writable Rewrite Duplicate 125khz - AliExpress 30.pdf</a><br><br>AliExpress listing: <a data-href="4 Byte &amp; 7 Byte Desfire with UID, SAK, ATQA, ATS Changeable - AliExpress 30.pdf" href="https://kquote03.github.io/CapstoneWiki/attachments/4-byte-&amp;-7-byte-desfire-with-uid,-sak,-atqa,-ats-changeable-aliexpress-30.pdf" class="internal-link" target="_self" rel="noopener nofollow">4 Byte &amp; 7 Byte Desfire with UID, SAK, ATQA, ATS Changeable - AliExpress 30.pdf</a><br><br>Full notes for usage with Proxmark 3 are available on the git repo:<br>
+<a rel="noopener nofollow" class="external-link" href="https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/magic_cards_notes.md#umc" target="_blank">https://github.com/RfidResearchGroup/proxmark3/blob/master/doc/magic_cards_notes.md#umc</a><br>AliExpress listing: <a data-href="Ultimate Magic Card and Fob– Gen4 - AliExpress 30.pdf" href="https://kquote03.github.io/CapstoneWiki/attachments/ultimate-magic-card-and-fob–-gen4-aliexpress-30.pdf" class="internal-link" target="_self" rel="noopener nofollow">Ultimate Magic Card and Fob– Gen4 - AliExpress 30.pdf</a><br><br>AliExpress listing: <a data-href="5pcs_896 bits EEPROM memory ISO 15693 UID Changeable By Lua Script by Iceman PM3 13.56Mhz RFID 0 BLOCK UID are Customizables - AliExpress 30.pdf" href="https://kquote03.github.io/CapstoneWiki/attachments/5pcs_896-bits-eeprom-memory-iso-15693-uid-changeable-by-lua-script-by-iceman-pm3-13.56mhz-rfid-0-block-uid-are-customizables-aliexpress-30.pdf" class="internal-link" target="_self" rel="noopener nofollow">5pcs_896 bits EEPROM memory ISO 15693 UID Changeable By Lua Script by Iceman PM3 13.56Mhz RFID 0 BLOCK UID are Customizables - AliExpress 30.pdf</a><br>]]></description><link>https://kquote03.github.io/CapstoneWiki/wiki/magic-cards.html</link><guid isPermaLink="false">Wiki/Magic Cards.md</guid><pubDate>Sun, 16 Mar 2025 18:53:03 GMT</pubDate></item><item><title><![CDATA[NDEF]]></title><description><![CDATA[ 
  <br>"NFC Data Exchange Format". It refers to the protocol/format used to send data in a packet-like structure.<br><br><img alt="Pasted image 20250119232441.png" src="https://kquote03.github.io/CapstoneWiki/lib/media/pasted-image-20250119232441.png"><br>
-Mngomezulu, Zinhle &amp; Rimer, Suvendi &amp; Ouahada, Khmaies &amp; Ndjiongue, Alain Richard. (2017). A review of Bluetooth and NFC for financial applications. 10.15224/978-1-63248-117-7-11. <br><br>]]></description><link>https://kquote03.github.io/CapstoneWiki/wiki/ndef.html</link><guid isPermaLink="false">Wiki/NDEF.md</guid><pubDate>Sun, 19 Jan 2025 19:25:13 GMT</pubDate><enclosure url="https://kquote03.github.io/CapstoneWiki/lib/media/pasted-image-20250119232441.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://kquote03.github.io/CapstoneWiki/lib/media/pasted-image-20250119232441.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Nxplib notes]]></title><description><![CDATA[ 
+Mngomezulu, Zinhle &amp; Rimer, Suvendi &amp; Ouahada, Khmaies &amp; Ndjiongue, Alain Richard. (2017). A review of Bluetooth and NFC for financial applications. 10.15224/978-1-63248-117-7-11. <br><br>]]></description><link>https://kquote03.github.io/CapstoneWiki/wiki/ndef.html</link><guid isPermaLink="false">Wiki/NDEF.md</guid><pubDate>Sun, 19 Jan 2025 19:25:13 GMT</pubDate><enclosure url="https://kquote03.github.io/CapstoneWiki/lib/media/pasted-image-20250119232441.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://kquote03.github.io/CapstoneWiki/lib/media/pasted-image-20250119232441.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Notes on (Web)Sockets]]></title><description><![CDATA[ 
+ <br>
+<br>The default protocol is ws:// (insecure) and wss:// (secure)
+]]></description><link>https://kquote03.github.io/CapstoneWiki/wiki/notes-on-(web)sockets.html</link><guid isPermaLink="false">Wiki/Notes on (Web)Sockets.md</guid><pubDate>Thu, 10 Apr 2025 22:03:50 GMT</pubDate></item><item><title><![CDATA[Nxplib notes]]></title><description><![CDATA[ 
  <br><br>
 <br>CLIF - ContactLess InterFace
 <br>LPCD - Low Power Card Detection
@@ -71,8 +481,17 @@ The whole transmit buffer shall be written at once as well. No NSS assertion is 
 <br>ISO/IEC 14443-2:2020 Part 2: Radio frequency power and signal interface
 <br>ISO/IEC 14443-3:2018 Part 3: Initialization and anticollision
 <br>ISO/IEC 14443-4:2018 Part 4: Transmission protocol
-<br><br>The first interface was type A, supported by Mikron and their Mifare technology, later bought by Philips (NXP). Some limitations quickly occurred: the initial implementation was a memory card, and not a microprocessor card. At the time, type A couldn't power up a microprocessor continuously. The Innovatron company had working microprocessor cards, so their technology was integrated as type B in the standard. This separation is not relevant anymore since you can have type A or type B memory or microprocessor cards, and we ended up with two competing technologies in the same standard.<br>(source: <a rel="noopener nofollow" class="external-link" href="https://electronics.stackexchange.com/questions/222055/why-are-there-types-a-and-b-in-iso-14443" target="_blank">https://electronics.stackexchange.com/questions/222055/why-are-there-types-a-and-b-in-iso-14443</a>)<br><br>Mainly used for inventory management and industrial applications, however, as we find in the card scanning excel sheet, that's not always necessarily the case.<br><br>This standard refers to Sony FeliCa type cards.<br><br><br><br>Not commonly used. Refers to legacy parts. Now no longer needed for backwards compatibility even; NFC Type 5 v1.2 cards need to support all the way back to Type 2 at least, <a data-tooltip-position="top" aria-label="https://nfc-forum.org/build/specifications" rel="noopener nofollow" class="external-link" href="https://nfc-forum.org/build/specifications" target="_blank">but can ignore Type 1 if they choose. </a><br><br>The most popular kind. <br><br>Sony FeliCa. See <a data-href="#ISO/IEC 18092 / JIS X 6319-4" href="https://kquote03.github.io/CapstoneWiki/about:blank#ISO/IEC_18092_/_JIS_X_6319-4" class="internal-link" target="_self" rel="noopener nofollow">ISO/IEC 18092 / JIS X 6319-4</a>.<br><br>Supports more security standards, and supports ISO-DEP communication, which is just a fancy name for ISO 14443.<br><br>NfcV. See <a data-href="#ISO 15693" href="https://kquote03.github.io/CapstoneWiki/about:blank#ISO_15693" class="internal-link" target="_self" rel="noopener nofollow">ISO 15693</a>.]]></description><link>https://kquote03.github.io/CapstoneWiki/wiki/types-of-cards-and-standards.html</link><guid isPermaLink="false">Wiki/Types of cards and standards.md</guid><pubDate>Sun, 19 Jan 2025 19:57:17 GMT</pubDate></item><item><title><![CDATA[Welcome]]></title><description><![CDATA[ 
+<br><br>The first interface was type A, supported by Mikron and their Mifare technology, later bought by Philips (NXP). Some limitations quickly occurred: the initial implementation was a memory card, and not a microprocessor card. At the time, type A couldn't power up a microprocessor continuously. The Innovatron company had working microprocessor cards, so their technology was integrated as type B in the standard. This separation is not relevant anymore since you can have type A or type B memory or microprocessor cards, and we ended up with two competing technologies in the same standard.<br>(source: <a rel="noopener nofollow" class="external-link" href="https://electronics.stackexchange.com/questions/222055/why-are-there-types-a-and-b-in-iso-14443" target="_blank">https://electronics.stackexchange.com/questions/222055/why-are-there-types-a-and-b-in-iso-14443</a>)<br><br>Mainly used for inventory management and industrial applications, however, as we find in the card scanning excel sheet, that's not always necessarily the case.<br><br>This standard refers to Sony FeliCa type cards.<br><br><br><br>Not commonly used. Refers to legacy parts. Now no longer needed for backwards compatibility even; NFC Type 5 v1.2 cards need to support all the way back to Type 2 at least, <a data-tooltip-position="top" aria-label="https://nfc-forum.org/build/specifications" rel="noopener nofollow" class="external-link" href="https://nfc-forum.org/build/specifications" target="_blank">but can ignore Type 1 if they choose. </a><br><br>The most popular kind. <br><br>Sony FeliCa. See <a data-href="#ISO/IEC 18092 / JIS X 6319-4" href="https://kquote03.github.io/CapstoneWiki/about:blank#ISO/IEC_18092_/_JIS_X_6319-4" class="internal-link" target="_self" rel="noopener nofollow">ISO/IEC 18092 / JIS X 6319-4</a>.<br><br>Supports more security standards, and supports ISO-DEP communication, which is just a fancy name for ISO 14443.<br><br>NfcV. See <a data-href="#ISO 15693" href="https://kquote03.github.io/CapstoneWiki/about:blank#ISO_15693" class="internal-link" target="_self" rel="noopener nofollow">ISO 15693</a>.]]></description><link>https://kquote03.github.io/CapstoneWiki/wiki/types-of-cards-and-standards.html</link><guid isPermaLink="false">Wiki/Types of cards and standards.md</guid><pubDate>Sun, 19 Jan 2025 19:57:17 GMT</pubDate></item><item><title><![CDATA[Understanding DESFire]]></title><description><![CDATA[ 
+ <br><br>Tear-off: Sometimes considered an attack, but it's just simply removing the card from the reader mid-transmission.<br><br><img alt="Pasted image 20250421100533.png" src="https://kquote03.github.io/CapstoneWiki/wiki/attachments/pasted-image-20250421100533.png" style="width: 500px; max-width: 100%;"><br>
+<a data-tooltip-position="top" aria-label="http://dx.doi.org/10.13140/RG.2.2.19591.42401" rel="noopener nofollow" class="external-link" href="http://dx.doi.org/10.13140/RG.2.2.19591.42401" target="_blank">10.13140/RG.2.2.19591.42401</a><br>A card holds multiple "application"s. Each applications holds different files of these types:<br>
+<br>Normal files
+<br>Value files
+<br>Cyclic record files
+<br>Backup files<br>
+Normal files are just binaries, they're the only file type to have no tear-off protection. Value files are a numerical value (or variable), they store just a number, and they have debit/credit methods for use in top-up systems. Cyclic records are used to store transaction history, when full, it returns to the first record (hence, cyclic). Backup files are binaries (like normal files) but with tear-off protection.
+<br>Each file can use one of three keys, and each file has the standard permissions of R/W but with the addition of another permission "can modify". If not present, then the permissions are set forever and cannot be modified.]]></description><link>https://kquote03.github.io/CapstoneWiki/wiki/understanding-desfire.html</link><guid isPermaLink="false">Wiki/Understanding DESFire.md</guid><pubDate>Mon, 21 Apr 2025 06:14:15 GMT</pubDate><enclosure url="https://kquote03.github.io/CapstoneWiki/wiki/attachments/pasted-image-20250421100533.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="https://kquote03.github.io/CapstoneWiki/wiki/attachments/pasted-image-20250421100533.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Welcome]]></title><description><![CDATA[ 
  <br><br>This wiki serves as a knowledge-base for NFC/RFID card research for our capstone project.<br>Good luck.<br><br>
+<br><a data-href="Understanding DESFire" href="https://kquote03.github.io/CapstoneWiki/wiki/understanding-desfire.html" class="internal-link" target="_self" rel="noopener nofollow">Understanding DESFire</a>
 <br><a data-href="Bluefin SRS" href="https://kquote03.github.io/CapstoneWiki/wiki/bluefin-srs.html" class="internal-link" target="_self" rel="noopener nofollow">Bluefin SRS</a>
 <br><a data-href="Nxplib notes" href="https://kquote03.github.io/CapstoneWiki/wiki/nxplib-notes.html" class="internal-link" target="_self" rel="noopener nofollow">Nxplib notes</a>
 <br><a data-href="PN5180 to Raspberry Pi" href="https://kquote03.github.io/CapstoneWiki/wiki/pn5180-to-raspberry-pi.html" class="internal-link" target="_self" rel="noopener nofollow">PN5180 to Raspberry Pi</a>
@@ -80,4 +499,4 @@ The whole transmit buffer shall be written at once as well. No NSS assertion is 
 <br><a data-href="NDEF" href="https://kquote03.github.io/CapstoneWiki/wiki/ndef.html" class="internal-link" target="_self" rel="noopener nofollow">NDEF</a>
 <br><a data-href="Types of cards and standards" href="https://kquote03.github.io/CapstoneWiki/wiki/types-of-cards-and-standards.html" class="internal-link" target="_self" rel="noopener nofollow">Types of cards and standards</a>
 <br><a data-href="Background (Initial) Research" href="https://kquote03.github.io/CapstoneWiki/wiki/background-(initial)-research.html" class="internal-link" target="_self" rel="noopener nofollow">Background (Initial) Research</a>
-]]></description><link>https://kquote03.github.io/CapstoneWiki/index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Wed, 12 Mar 2025 18:21:12 GMT</pubDate></item></channel></rss>
+]]></description><link>https://kquote03.github.io/CapstoneWiki/index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Mon, 21 Apr 2025 06:15:26 GMT</pubDate></item></channel></rss>
